@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 games {'gta5'}
 
-name 'FiveM TS-Preact Boilerplate'
-description 'FiveM TypeScript Boilerplate with a Preact-powered NUI'
+name 'FiveM TS Preact & Tailwind Boilerplate'
+description 'FiveM TypeScript Boilerplate with a Preact & Tailwind powered NUI'
 author 'Standal'
 url 'https://github.com/Ascent-Gaming/fivem-ts-preact'
 
