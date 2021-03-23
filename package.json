@@ -1,13 +1,6 @@
 {
-  "name": "fivem-ts-preact-boilerplate",
-  "version": "1.0.0",
-  "description": "Typescript Boilerplate for FiveM with a Preact-powered NUI",
-  "main": "index.js",
-  "repository": "https://github.com/Ascent-Gaming/fivem-ts-preact",
-  "contributors": [
-    "d0p3t <d0p3t@users.noreply.github.com>",
-    "realStandal <realStandal@users.noreply.github.com>"
-  ],
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "build:nui": "cross-env NODE_ENV=production postcss src/html/styles/style.css -o src/html/styles/dist/style.css",
     "build:script": "webpack --mode production",
@@ -18,8 +11,6 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
-  "license": "MIT",
-  "private": false,
   "dependencies": {
     "@citizenfx/client": "^1.0.2792-1",
     "@citizenfx/server": "^1.0.2792-1",
